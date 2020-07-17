@@ -58,9 +58,11 @@ class WidgetsScreen extends StatelessWidget {
                           color: CupertinoColors.white,
                         ),
                       ),
-                      title: Text('Action Sheets and alerts'),
+                      title: Text('Text inputs'),
                       trailing: Icon(CupertinoIcons.right_chevron),
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, '/inputs');
+                      },
                     ),
                     Container(
                       margin: EdgeInsets.only(left: 70.0),
@@ -80,7 +82,9 @@ class WidgetsScreen extends StatelessWidget {
                       ),
                       title: Text('Switch and Slider'),
                       trailing: Icon(CupertinoIcons.right_chevron),
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, '/slider');
+                      },
                     ),
                     Container(
                       margin: EdgeInsets.only(left: 70.0),
@@ -100,7 +104,9 @@ class WidgetsScreen extends StatelessWidget {
                       ),
                       title: Text('Segmented Control'),
                       trailing: Icon(CupertinoIcons.right_chevron),
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, '/segmentedcontrol');
+                      },
                     ),
                     Container(
                       margin: EdgeInsets.only(left: 70.0),
@@ -120,7 +126,9 @@ class WidgetsScreen extends StatelessWidget {
                       ),
                       title: Text('Pickers'),
                       trailing: Icon(CupertinoIcons.right_chevron),
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, '/pickers');
+                      },
                     ),
                   ],
                 ),
